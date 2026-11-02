@@ -6,26 +6,40 @@
   <meta name="description" content="받자마자(FirstCheck) Android 앱 개인정보처리방침">
   <title>받자마자(FirstCheck) 개인정보처리방침</title>
   <style>
+  @import url('./brand-tokens.css');
+
     :root {
       color-scheme: light dark;
-      --bg: #f7f8fa;
-      --card: #ffffff;
-      --text: #202124;
-      --muted: #5f6368;
-      --line: #dfe3e8;
-      --accent: #0b57d0;
-      --notice: #eef4ff;
+      --bg: var(--brand-background);
+      --card: var(--brand-surface);
+      --text: var(--brand-text);
+      --muted: var(--brand-text-muted);
+      --line: var(--brand-border);
+      --accent: var(--brand-blue);
+      --notice: var(--brand-soft-blue);
     }
 
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #111318;
-        --card: #1a1d24;
-        --text: #e8eaed;
-        --muted: #bdc1c6;
-        --line: #3c4043;
-        --accent: #8ab4f8;
-        --notice: #1b2a41;
+  --brand-background: #101a2b;
+  --brand-surface: #18263b;
+  --brand-text: #f7f9fc;
+  --brand-text-muted: #b6c4d8;
+  --brand-border: #31415a;
+  --brand-soft-blue: #203456;
+  --brand-soft-mint: #173b3b;
+  --brand-success: #8be2b4;
+  --brand-warning: #f0ce85;
+  --brand-error: #ffadb8;
+  --brand-focus: #a5e4dc;
+
+        --bg: var(--brand-background);
+        --card: var(--brand-surface);
+        --text: var(--brand-text);
+        --muted: var(--brand-text-muted);
+        --line: var(--brand-border);
+        --accent: var(--brand-mint);
+        --notice: var(--brand-soft-blue);
       }
     }
 

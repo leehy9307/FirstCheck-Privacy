@@ -1,0 +1,36 @@
+/* 하늘이길다 공통 브랜드 토큰 — 2026-10-02 사용자가 선택한 전체 홈페이지 팔레트 */
+:root {
+  --brand-ink: #152238;
+  --brand-blue: #2f66f5;
+  --brand-blue-hover: #2154d6;
+  --brand-mint: #a5e4dc;
+  --brand-mint-ink: #13594f;
+  --brand-background: #f7f9fc;
+  --brand-surface: #ffffff;
+  --brand-text: #152238;
+  --brand-text-muted: #526177;
+  --brand-border: #dce4ef;
+  --brand-soft-blue: #eaf0ff;
+  --brand-soft-mint: #eaf8f5;
+  --brand-success: #16704a;
+  --brand-warning: #8a5700;
+  --brand-error: #b4233a;
+  --brand-focus: #2154d6;
+  --brand-radius-control: 12px;
+  --brand-radius-card: 24px;
+  --brand-font-sans: 'Noto Sans KR', 'Pretendard', 'Segoe UI', sans-serif;
+}
+
+[data-theme='dark'] {
+  --brand-background: #101a2b;
+  --brand-surface: #18263b;
+  --brand-text: #f7f9fc;
+  --brand-text-muted: #b6c4d8;
+  --brand-border: #31415a;
+  --brand-soft-blue: #203456;
+  --brand-soft-mint: #173b3b;
+  --brand-success: #8be2b4;
+  --brand-warning: #f0ce85;
+  --brand-error: #ffadb8;
+  --brand-focus: #a5e4dc;
+}
